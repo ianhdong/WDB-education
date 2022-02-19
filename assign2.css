@@ -27,10 +27,7 @@
     font-weight: 200;
   }
 
-  .box {
-    top: 50%;
-    bottom: 50%;
-  }
+  
   
   /* Classes that you might find useful */
   /* Note* These classes do not cover every possible case to build you flags, you will have to continue to add your own*/
@@ -62,6 +59,22 @@
   .sixthvert {
     height: 16.7%
   }
+
+  .ninevert {
+    height: 11.11%;
+  }
+
+  .largebit {
+    width: 13%;
+  }
+
+  .rest {
+    width: 66.5%
+  }
+
+  .smallbit {
+    width: 7.5%;
+  }
   
   .skinny {
     height: 17.5%;
@@ -70,14 +83,17 @@
   .fat {
     height: 30%;
   }
-
-  .grid-container {
-    display: grid;
-    /* grid-template-columns:  */
-    background-color: #2196f3;
-    padding: 10px;
-  }
   
+  .box1 {
+    flex:1;
+    order:1;
+  }
+
+  .box2 {
+    flex: 1;
+    order:2;
+  }
+
   .circle {
     border-radius: 50%;
     height: 150px;
@@ -90,10 +106,6 @@
     align-items: center;
     justify-content: center;
   }
-  /* .image {
-    left: 0.5rem;
-    top: 5rem;
-  } */
   
   /* Colors/ Feel free to add your own! */
   
@@ -147,6 +159,10 @@
 
   .romaniablue {
     background-color: #002b7f;
+  }
+
+  .greeceblue {
+    background-color: rgb(0, 20, 137);
   }
   
   .purple {
