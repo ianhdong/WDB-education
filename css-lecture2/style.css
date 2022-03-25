@@ -1,0 +1,20 @@
+.box-container {
+    padding: 30px;
+    display: block;
+    text-align: center;
+    width: 300px;
+    background-color: lightblue;
+    color: black;
+    font-size: 50px;
+}
+.box-one {
+    background: red;
+}
+.box-two {
+    background-color: rgb(55, 156, 55);
+}
+
+.box-three {
+    background: blue;
+}
+

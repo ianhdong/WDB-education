@@ -1,0 +1,23 @@
+{
+  "name": "sp22-lectures",
+  "version": "1.0.0",
+  "description": "Lecture content for sp22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstack-decal/sp22-lectures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstack-decal/sp22-lectures/issues"
+  },
+  "homepage": "https://github.com/fullstack-decal/sp22-lectures#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
