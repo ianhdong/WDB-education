@@ -12,5 +12,4 @@ function Game() {
         </div>
     )
 }
-
 export default Game;
